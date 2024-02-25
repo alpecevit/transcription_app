@@ -27,7 +27,7 @@ class WavForm(FlaskForm):
 
 app = Flask(__name__)
 
-app.config['SECRET_KEY'] = 'my_very_sikret_key'
+app.config['SECRET_KEY'] = ''
 app.config['UPLOAD_EXTENSIONS'] = ['.wav']
 app.config['UPLOAD_FOLDER'] = 'static/uploaded_files/'
 
