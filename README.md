@@ -11,8 +11,7 @@ This project is a Flask-based web application that uses the OpenAI Whisper ASR s
 ## Demo
 
 You can watch a demo of the application in action below:
-
-https://github.com/alpecevit/transcription_app/assets/89662849/e6a5c971-bb32-4609-a7d7-5896b649e831
+![](https://github.com/alpecevit/transcription_app/assets/89662849/ef2c439a-9af4-4105-9235-ded1a58d526f)
 
 ## Installation
 
