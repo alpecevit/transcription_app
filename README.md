@@ -33,7 +33,8 @@ python app.py
 Open a web browser and navigate to http://localhost:5000
 Upload your .wav file and select the language
 Click on the submit button to get the transcription
-Code Overview
+
+## Code Overview
 The application uses the Flask framework and the WTForms library for handling file uploads and form data. The Whisper ASR model from OpenAI is used for the transcription.
 
 The WavForm class defines the form used for file upload and language selection. The index function handles the form submission and file processing. If the file is valid, it is saved and then transcribed using the get_transcription function from the models.model module. The transcription result is then stored in the session and the user is redirected to the results page where the transcription is displayed.
