@@ -1,0 +1,10 @@
+body{
+    font-family: 'Lato', sans-herif;
+    padding-bottom: 50px;
+}
+
+div#results{
+    display:block;
+    width:50%;
+    margin:0 auto;
+}

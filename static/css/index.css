@@ -1,0 +1,59 @@
+body{
+    font-family: 'Lato', sans-herif;
+    padding-bottom: 50px;
+}
+
+div#content{
+    display:block;
+    width:50%;
+    margin:0 auto;
+}
+
+div#loading{
+    display:none;
+    width:50%;
+    margin:0 auto;
+}
+
+div#loader{
+    display:none;
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #000000;
+    border-radius: 50%;
+    margin:0 auto;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+a {
+  color: #337ab7;
+}
+
+a:hover {
+  color:#23527c;
+}
+
+a:visited {
+  color: #8d75a3;
+}
+
+audio {
+  display: block;
+  width: 100%;
+  margin-top: 0.2rem;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+#recordingsList{
+	max-width: 28em;
+}
